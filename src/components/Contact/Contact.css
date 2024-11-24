@@ -1,0 +1,45 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    
+    align-items: center;
+    background-color: #121212;
+    padding: 90px 0;
+    padding-bottom: 90px;
+}
+.contact__container{
+    border: 1px solid white;
+    width: 600px;;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.contact__container >p {
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+
+}
+.contact__container >p>a {
+    color:  rgb(255, 51, 167);
+    text-decoration: none;
+    
+}
+.contact__icons >a>button>span>.MuiSvgIcon-root{
+    color: white;
+}
+.contact__icons >a>button>span>.MuiSvgIcon-root:hover{
+    color:  rgb(255, 51, 167);
+}
+
+@media (max-width: 480px) {
+    .contact__container {
+        width: 69%;
+    }  
+}

@@ -1,0 +1,67 @@
+/* Timeline container styling */
+.timeline-container {
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 90px 0;
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  .timeline-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Timeline structure */
+  .timeline {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 30px;
+    border-left: 2px solid #007bff;
+  }
+  
+  .timeline-item {
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .timeline-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #007bff;
+    border-radius: 50%;
+    position: absolute;
+    left: -9px;
+  }
+  
+  .timeline-content {
+    margin-left: 20px;
+  }
+  
+  .timeline-content h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .timeline-content .date {
+    color: #1e90ff;
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .timeline-content .skills {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #dcdcdc;
+  }
+  
+  @media (max-width: 480px) {
+    .timeline {
+padding-left: 5px;
+    }
+  }
